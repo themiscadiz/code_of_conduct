@@ -106,22 +106,25 @@ button:focus{outline: none;}
      box-shadow: -10px 10px  #0BA687;
     margin: 20px 20px 20px 0px;
   
-    padding: 10px 30px;
+    /* padding: 10px 10px; */
     background-color: #FFFFFF;
-    /* height: 70vh; */
+    height: 100vh;
   
 }
 
     .coc_nav_section a{
-        /* position: relative;
-        display: flex; */
-        display: block;
-        flex-direction: row;
-        /* display: inline; */
-        padding: 20px;
+        display: inline-block;
+        padding-left: 20px;
+        margin: 15px;
         width: 100%; 
         /* height: auto;  */
+    }
 
+    @media screen and (max-width: 900px) { 
+        .coc_nav_section a{
+       
+               width: 90%; 
+           }
     }
 
     .container{
