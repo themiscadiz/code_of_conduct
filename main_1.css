@@ -50,7 +50,7 @@ button { font-size: 100%; font-family: inherit; border: 0; padding: 0; cursor: p
 
 button:focus{outline: none;}
 
-
+mark{ background-color:#52daa6; padding:3px;}
 
 
 /** Site header */
@@ -250,12 +250,57 @@ padding: 2rem 4rem; border-radius: 5px; border: 2px solid #111111;
     padding-right: 15px; 
     padding-left: 15px; } }
 
-
 /* ********************************** */
+
+/* home */
+
+/* home button */
+.cover-section{position: relative; display: flex; flex-direction: column; align-items: center;
+ text-align: center; padding: 4rem 0rem;}
+.home-button{
+margin: 2rem 0rem; padding: 1rem 2rem; border-radius: 5px; border: 2px solid #111111; 
+box-shadow: -5px 5px 10px  rgb(231, 231, 231);
+}
+.home-button a{text-decoration: none;}
+.home-button:hover{ box-shadow: -10px 10px  #0BA687; transition: .20s;}
+.home-button-text{margin: 10px 0px; text-align: center;}
+
+
+
+.introduction-text-section{ 
+    max-width: 800px;
+    max-width: -webkit-calc(800px - (30px * 2)); 
+    max-width: calc(800px - (30px * 2)); 
+    margin-right: auto; 
+    margin-left: auto; 
+    padding-right: 30px; 
+    padding-left: 30px;
+    padding-bottom: 5rem; 
+    /* background-color: aquamarine; */
+}
+
+@media screen and (max-width: 600px) { 
+    .introduction-text-section { 
+    max-width: -webkit-calc(600px - (30px)); 
+    max-width: calc(600px - (30px)); 
+    padding-right: 15px; 
+    padding-left: 15px; } 
+}
+
+.introduction-text-section{
+    border-radius: 5px; border: 2px dashed #0BA687;
+    /* border-radius: 5px; border: 2px solid #111111;
+    box-shadow: -10px 10px  #0BA687; */
+    padding: 2rem; margin-bottom: 5rem;
+}
+
 
 /* FOOTER */
 /* background-color: #ECECEC; */
-footer{background-color: #EFEFEF; position: relative; bottom:0px; right: 0px; left:0px;}
+footer{
+    /* background-color: #0BA687; */
+    background-color: #EFEFEF; 
+    position: relative; bottom:0px; right: 0px; left:0px;}
 .footer { display: flex; flex-direction:row; justify-content: space-around; padding: 5rem 2rem;}
 .logo_image { width: 200px;}
 @media screen and (max-width: 800px) { .footer { flex-direction:column;}}
