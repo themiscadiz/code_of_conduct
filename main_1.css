@@ -103,34 +103,47 @@ mark{ background-color:#52daa6; padding:3px;}
     flex-direction: column; 
     /* border: 2px dashed #0BA687;  */
      border: 2px solid #111111; 
+     border-radius: 5px;
      box-shadow: -10px 10px  #0BA687;
-    margin: 20px 20px 20px 0px;
-  
-    /* padding: 10px 10px; */
+    margin: 20px 0px 20px 0px;
+    /* padding-right: 20rem; */
+
     background-color: #FFFFFF;
-    height: 100vh;
+    /* background-color: darkcyan; */
+    /* height: 150vh; */
+    height: 1100px;
   
 }
 
     .coc_nav_section a{
-        display: inline-block;
+        /* display: flex; */
+        /* display: inline-block; */
+        /* flex-direction: column;
         padding-left: 20px;
         margin: 15px;
-        width: 100%; 
-        /* height: auto;  */
+        */
+     
+        width: 100%;  
+        display: inline-block;
+  /* vertical-align: top; */
+ margin: 1.5rem 0rem 1.5rem 20px;
+
     }
 
-    @media screen and (max-width: 900px) { 
+    @media screen and (max-width: 950px) { 
+
         .coc_nav_section a{
-       
-               width: 90%; 
+            margin: 1.5rem 0rem;
+               width: 80%; 
            }
     }
+
+
 
     .container{
         /* background-color: tomato; */
         margin: 20px;
-        /* margin-left: 100px; */
+        margin-left: 40px;
     }
         
 
@@ -140,7 +153,7 @@ mark{ background-color:#52daa6; padding:3px;}
 /* .coc-page-header a{float:right; background-color: tomato;
 } */
 .coc-page-header{ margin-top: 4rem;}
-@media screen and (max-width: 900px) { .coc-page-header{margin-top: 1rem;}}
+@media screen and (max-width: 950px) { .coc-page-header{margin-top: 1rem;}}
 
 /* ********************************** */
 /* coc side menu */
@@ -153,11 +166,13 @@ mark{ background-color:#52daa6; padding:3px;}
 
 .side-site-nav .side-page-link { color: #666666; line-height: 0;}
 
-.side-site-nav .side-page-link:not(:last-child) { margin-right: 20px; }
+.side-site-nav .side-page-link:not(:last-child) { 
+    /* margin-right: 20px; */
+}
 
 .side-site-nav a:hover{color: #111111; text-decoration: none;}
 
-@media screen and (max-width: 900px) { 
+@media screen and (max-width: 950px) { 
 .coc_page_section {
     flex-direction: column;
 }
@@ -167,11 +182,13 @@ mark{ background-color:#52daa6; padding:3px;}
     border: none; 
     height: auto;
    
+   
     
 }
-.coc_nav_section{ padding: 20px 10px; }
+.coc_nav_section{ padding: 20px 10px;}
 
 .side-site-nav { 
+    margin-right: 20px;
     position: relative; top: 0px; left: 15px; background-color: #FFFFFF; border: 1px solid #FFFFFF; border-radius: 5px; text-align: left;  
 }
 
@@ -186,13 +203,14 @@ mark{ background-color:#52daa6; padding:3px;}
 .side-site-nav .side-menu-icon {display: block;  width: 36px; height: 26px; line-height: 0; padding-top: 10px; text-align: center; } 
 .side-site-nav .side-menu-icon > svg { fill: #424242; } 
 .side-site-nav input ~ .trigger { clear: both; display: none;  } 
+
 .side-site-nav input:checked ~ .trigger { display: block; padding-bottom: 5px; 
     /* border: 2px dashed #0BA687;  */
     border: 2px solid #111111;
    
 } 
-.side-site-nav .side-page-link { display: block; padding: 20px 10px; margin-right: 20px;  } 
-.side-site-nav .side-page-link:not(:last-child) { margin-right: 0; } 
+.side-site-nav .side-page-link { display: block; padding: 20px 10px; margin-right: 20px;} 
+.side-site-nav .side-page-link:not(:last-child) { margin-right: 0;} 
 
 .side-menu-icon {position: relative; 
     border: 2px solid #111111;
@@ -256,14 +274,16 @@ padding: 2rem 4rem; border-radius: 5px; border: 2px solid #111111;
 
 /* home button */
 .cover-section{position: relative; display: flex; flex-direction: column; align-items: center;
- text-align: center; padding: 4rem 0rem;}
-.home-button{
-margin: 2rem 0rem; padding: 1rem 2rem; border-radius: 5px; border: 2px solid #111111; 
-box-shadow: -5px 5px 10px  rgb(231, 231, 231);
+ text-align: center; padding: 4rem 0rem; }
+
+.home-button{margin: 2rem 0rem; border-radius: 5px; border: 2px solid #111111; 
+box-shadow: -5px 5px 10px  rgb(231, 231, 231); 
 }
 .home-button a{text-decoration: none;}
+
 .home-button:hover{ box-shadow: -10px 10px  #0BA687; transition: .20s;}
-.home-button-text{margin: 10px 0px; text-align: center;}
+
+.home-button-text{text-align: center; padding: 1.5rem 4rem;}
 
 
 

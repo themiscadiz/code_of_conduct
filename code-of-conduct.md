@@ -9,7 +9,7 @@ permalink: /code-of-conduct/
 ### *We live in a fractured world where communities are burdened by differences - so what we ask of you is nothing short of miraculous.*
 #### — Red Burns
 
-ITP/IMA1 is a community whose mission is to explore the imaginative uses of emerging technologies — to make people's lives safer, more just, more beautiful, more meaningful, and more fun. We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
+ITP/IMA is a community whose mission is to explore the imaginative uses of emerging technologies — to make people's lives safer, more just, more beautiful, more meaningful, and more fun. We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
 The scope of this Code of Conduct applies to all ITP/IMA community members (faculty, staff, students, residents, fellows, and guests), ITP/IMA physical and digital spaces (e.g. Email listservs, Yorb, and ITP/IMA Discord server), and all courses, events, and projects created at or in service to ITP/IMA.
 
